@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.site-container{
+    width: 100%;
+}
+
+.site-container .back-image img{
+
+    width: 100%;
+    height: 100vh;
+}
+
+.site-container .login-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 35%;
+    height: 545px;
+    background-color: black;
+    position: absolute;
+    top: 5vh;
+    color: white;
+    filter: opacity(0.9);
+}
+.site-container .login-panel .login-but{
+    width: 100%;
+    height: 5%;
+    margin-left: 29%;
+}
+
+.site-container .login-panel .login-but button{
+
+    height: 37px;
+    width: 297.17px;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    border: none;
+}
+
+
+.site-container .login-panel .kullanici-panel{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 35%;
+    margin-top: 20px;
+    margin-left: 29%;
+}
+.site-container .login-panel .kullanici-panel input{
+    width: 65%;
+    height: 20%;
+    border-radius: 3px;
+    margin-top: 5%;
+    background-color: #232121;
+    border: none;
+    color: white;
+    font-size:medium;
+    
+}
+
+
+.site-container .login-panel .login-baslik{
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 29%;
+    font-size: 30px;
+}
+
+
+.site-container .back-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

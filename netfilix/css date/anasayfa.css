@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:rgb(28 26 26)  ;
+}
+
+
+.navbar .container-fluid img{
+    width: 20px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+
+.navbar .container-fluid .nav-logo{
+
+    width: 85px;
+
+}
+
+.navbar .container-fluid .asd {
+
+    flex: 1;
+}
+
+.container .film-kategori{
+    margin-top: 80px;
+    width: 100%;
+    margin-left: -60px;
+    color: white;
+}
+.container .film-kategori .film-image{
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container .film-kategori .film-image img{
+
+    width: 230px;
+    height: 150px;
+    image-rendering: pixelated;
+    margin: 5px;
+
+}
+.container .valuetop{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
