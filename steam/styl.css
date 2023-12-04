@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b2838;
+}
+
+.site-container{
+    margin: 5%;
+    background-color: #1b2838;
+}
+
+.site-container .geri{
+    width: 26px;
+    position: absolute;
+    left: 25px;
+    top: 265px;
+    
+}
+
+.site-container .ileri{
+    position: absolute;
+    right: 18px;
+    top: 265px;
+}
+
+
+.site-container .first-games .ileri button{
+    cursor: pointer;
+}
+
+.site-container .first-games .geri button{
+    cursor: pointer;
+}
+
+
+.site-container .first-games{
+    display: flex;
+    justify-content: center;
+}
+
+.site-container .first-games div{
+    margin-left: 10px;
+}
+
+
+.site-container .first-games .gf video{
+
+    width: 374px;
+    height: 221px;
+    display: flex;
+    
+    
+}
+
+
+.site-container .first-games .fifa-container .fifa-gift{
+
+    position:absolute;
+    top: 291px;
+    
+   opacity: 0;
+   cursor: pointer;
+   
+   transition: all .5s ease-in-out
+
+}
+
+
+
+
+
+.site-container .first-games .fifa-container:hover .fifa-gift {
+    transform: translate(0px,-231px);
+    -webkit-transform: translate(0px,-231px);
+   opacity: 1;
+}
+
+
+
+
+
+
+
+
+.site-container .first-games  .hakkinda{
+
+    background-color: cornflowerblue;
+    height: 235px;
+    width: 374px;
+    
+    margin: 0px;
+
+}
+
+/* ------------------------------------------------------------------------- */
+
+.site-container .first-games .bb-container .bb-gift{
+
+    position:absolute;
+    top: 291px;
+    
+   opacity: 0;
+   cursor: pointer;
+   
+   transition: all .5s ease-in-out
+
+}
+
+.site-container .first-games .bb-container:hover .bb-gift {
+    transform: translate(0px,-231px);
+    -webkit-transform: translate(0px,-231px);
+   opacity: 1;
+}
+
+/* ************************************************************************************** */
+.site-container .first-games .rw-container .rw-gift{
+
+    position:absolute;
+    top: 291px;
+    
+   opacity: 0;
+   cursor: pointer;
+   
+   transition: all .5s ease-in-out
+
+}
+
+.site-container .first-games .rw-container:hover .rw-gift {
+    transform: translate(0px,-231px);
+    -webkit-transform: translate(0px,-231px);
+   opacity: 1;
+}
+
+
+.site-container .first-games .hakkinda{
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.site-container .first-games .hakkinda .mrb .discount_prices{
+
+    background-color: rgba(20,31,44,0.8)
+
+}
+
+.site-container .first-games .hakkinda .mrb .discount_original_price{
+
+    position: relative;
+    width: fit-content;
+    color: #738895;
+    font-size: 11px;
+    line-height: 12px
+}
+
+.site-container .first-games .hakkinda .mrb .discount_final_price {
+    color: #BEEE11;
+    line-height: 16px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.site-container .first-games .hakkinda .mrb .discount_pct{
+
+    font-size:26px ;
+    padding:0.5px ;
+    color: #BEEE11;
+    background: #4c6b22;
+
+}
+
+.site-container .active{
+
+    display: none;
+
+}
